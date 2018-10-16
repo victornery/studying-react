@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 import menu from '../../json/nav.json'
 import styles from './style.css';
 
@@ -14,8 +16,10 @@ class Header extends Component {
 
     const items = language.map((el, i) => {
       return (
-        <li className="" key={i}>
-          {el.name}
+        <li key={i}>
+          <Link to={`${el.link}`}>
+            {el.name}
+          </Link>
         </li>
       )
     });
@@ -26,7 +30,7 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <ul className={`${styles.nav}`}>
+        <ul className={styles.nav}>
           {this.loadMenu()}
         </ul>
       </nav>

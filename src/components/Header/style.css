@@ -1,3 +1,22 @@
 .nav {
-  background: red;
+  padding: 20px 0;
+  background: var(--brand);
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 5px;
+  letter-spacing: 1px;
+}
+
+.nav li a {
+  color: var(--secundary);
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background: var(--secundary);
+  color: var(--brand);
 }
