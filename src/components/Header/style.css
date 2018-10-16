@@ -5,18 +5,18 @@
   text-align: center;
 }
 
-.nav li {
+li {
   display: inline-block;
   padding: 0 5px;
   letter-spacing: 1px;
 }
 
-.nav li a {
+a {
   color: var(--secundary);
   text-decoration: none;
 }
 
-.nav li a:hover {
+a:hover {
   background: var(--secundary);
   color: var(--brand);
 }
