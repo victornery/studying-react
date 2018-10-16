@@ -1,0 +1,56 @@
+[
+  {
+    "pt": [
+      {
+        "name": "Início",
+        "link": "/",
+        "component": "home"
+      },
+      {
+        "name": "Sobre",
+        "link": "/sobre",
+        "component": "about"
+      },
+      {
+        "name": "Portfólio",
+        "link": "/portfolio",
+        "component": "portfolio"
+      },
+      {
+        "name": "Contato",
+        "link": "/contato",
+        "component": "contact"
+      },
+      {
+        "name": "Github",
+        "externalLink": "https://github.com/victornery"
+      }
+    ],
+    "en": [
+      {
+        "name": "Home",
+        "link": "/",
+        "component": "home"
+      },
+      {
+        "name": "About",
+        "link": "/about",
+        "component": "about"
+      },
+      {
+        "name": "Works",
+        "link": "/works",
+        "component": "portfolio"
+      },
+      {
+        "name": "Contact",
+        "link": "/contact",
+        "component": "contact"
+      },
+      {
+        "name": "Github",
+        "externalLink": "https://github.com/victornery"
+      }
+    ]
+  }
+]
