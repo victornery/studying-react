@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import menu from '../../json/nav.json'
+import styles from './style.css';
 
 class Header extends Component {
   loadMenu() {
@@ -25,7 +26,7 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <ul>
+        <ul className={`${styles.nav}`}>
           {this.loadMenu()}
         </ul>
       </nav>
